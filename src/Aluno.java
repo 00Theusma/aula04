@@ -4,10 +4,7 @@ public class Aluno {
     private String matricula;
     private Data dataMatricula;
     
-    public Aluno(String matricula, Data dataMatricula) {
-        this.matricula = matricula;
-        this.dataMatricula = dataMatricula;
-    }
+   
 
     public String getMatricula() {
         return matricula;
@@ -23,6 +20,12 @@ public class Aluno {
         this.dataMatricula = dataMatricula;
     }
 
-    
+    public Aluno (){ 
+    }
+
+    public Aluno(String matricula, Data dataMatricula) {
+        this.matricula = matricula;
+        this.dataMatricula = dataMatricula;
+    }
 
 }

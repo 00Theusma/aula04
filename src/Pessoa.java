@@ -10,19 +10,6 @@ public class Pessoa {
     private String cpf;
     private Data dataInsercao;
 
-
-    public Pessoa(int codigo, String nome, String endereco, String telefone, Data dataNascimento, String rg, String cpf,
-            Data dataInsercao) {
-        this.codigo = codigo;
-        this.nome = nome;
-        this.endereco = endereco;
-        this.telefone = telefone;
-        this.dataNascimento = dataNascimento;
-        this.rg = rg;
-        this.cpf = cpf;
-        this.dataInsercao = dataInsercao;
-    }
-    
     public int getCodigo() {
         return codigo;
     }
@@ -78,5 +65,20 @@ public class Pessoa {
     public void setDataInsercao(Data dataInsercao) {
         this.dataInsercao = dataInsercao;
     }
+ 
+public Pessoa(){
+    }
 
+public Pessoa(int codigo, String nome, String endereco, String telefone, Data dataNascimento, String rg, String cpf,
+    Data dataInsercao) {
+        
+        this.codigo = codigo;
+        this.nome = nome;
+        this.endereco = endereco;
+        this.telefone = telefone;
+        this.dataNascimento = dataNascimento;
+        this.rg = rg;
+        this.cpf = cpf;
+        this.dataInsercao = dataInsercao;
+    }
 }

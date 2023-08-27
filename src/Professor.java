@@ -5,11 +5,7 @@ public class Professor {
     private String registro;
     private Data dataContratacao;
 
-    public Professor(String registro, Data dataContratacao) {
-        this.registro = registro;
-        this.dataContratacao = dataContratacao;
-    }
-
+    
     public String getRegistro() {
         return registro;
     }
@@ -24,5 +20,12 @@ public class Professor {
         this.dataContratacao = dataContratacao;
     }
     
-    
+public Professor(){       
+}
+
+    public Professor(String registro, Data dataContratacao) {
+        this.registro = registro;
+        this.dataContratacao = dataContratacao;
+    }
+
 }
